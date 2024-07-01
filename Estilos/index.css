@@ -55,3 +55,82 @@ body {
         height: 3vw;
     }
 }
+/* ***********ESTILOS DEL TEXTO DE LAS INSTRUCCIONES  */
+.divPAdreiconos {
+    /* background-color: aqua; */
+    width: auto;
+    height: auto;
+    display: inline-block;
+    /* VERTICAL Y HORIZONTAL */
+    margin: 0 10px;
+  }
+  .icono {
+    display: flex;
+    height: auto;
+    width: 200px;
+  }
+  .icono p {
+    font-family: Tahoma, sans-serif;
+    color: white;
+  }
+  .icono i {
+    font-size: 25px;
+    margin: 0 5px;
+    color: #fef102;
+  }
+  @media (max-width: 800px) {
+    .divPAdreiconos {
+      display: flex;
+    }
+    .icono {
+      margin: 0 10px;
+    }
+    .icono p {
+      font-size: small;
+    }
+    .icono i {
+      font-size: 15px;
+      margin: 0 2px;
+    }
+    .tree {
+      margin-top: 80px;
+    }
+  }
+  @media (max-width: 650px) {
+    .divPAdreiconos {
+    }
+    .tree {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .divPAdreiconos {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 190px 190px 150px;
+      gap: 5px;
+    }
+    .icono {
+      height: auto;
+      width: auto;
+      margin: 0;
+    }
+  }
+  @media (max-width: 600px) {
+    .divPAdreiconos {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 49% 49%;
+      gap: 8px;
+    }
+    .icono {
+      height: auto;
+      width: auto;
+      margin: 0;
+    }
+
+    .tree {
+      margin-top: 70px;
+    }
+  }

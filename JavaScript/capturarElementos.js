@@ -118,7 +118,7 @@ ARRAY_BOMBILLAS[0] = document.querySelector(
      ARRAY_BOMBILLAS_YELLOW[10]= document.querySelector(
        ".tree div:nth-of-type(15) div:nth-of-type(5)"
      ); 
-  
+
     /////////CAPTURAR GUIRNALDA////////////////    ARRAY_GUIRNALDA[1]
     ARRAY_GUIRNALDA[0] = document.querySelector(
       ".tree div:nth-of-type(6) div:nth-of-type(1)"
